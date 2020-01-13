@@ -1,0 +1,1438 @@
+{
+  "@context": {
+    "dmoa": "http://dmo.org/archive/",
+    "dmoi": "http://dmo.org/instance/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "nfo": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "/home/mike/mm/example_jsonld",
+      "@type": "nfo:Folder",
+      "rdfs:label": "example_jsonld",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git",
+      "@type": "nfo:Document",
+      "rdfs:label": ".git",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.gitattributes",
+      "@type": "nfo:Document",
+      "rdfs:label": ".gitattributes",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.gitignore",
+      "@type": "nfo:Document",
+      "rdfs:label": ".gitignore",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.idea",
+      "@type": "nfo:Document",
+      "rdfs:label": ".idea",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/LICENSE",
+      "@type": "nfo:Folder",
+      "rdfs:label": "LICENSE",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/README.md",
+      "@type": "nfo:Document",
+      "rdfs:label": "README.md",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld",
+      "@type": "nfo:Folder",
+      "rdfs:label": "example_jsonld",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/setup.py",
+      "@type": "nfo:Document",
+      "rdfs:label": "setup.py",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/COMMIT_EDITMSG",
+      "@type": "nfo:Folder",
+      "rdfs:label": "COMMIT_EDITMSG",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/HEAD",
+      "@type": "nfo:Folder",
+      "rdfs:label": "HEAD",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/branches",
+      "@type": "nfo:Folder",
+      "rdfs:label": "branches",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/config",
+      "@type": "nfo:Folder",
+      "rdfs:label": "config",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/description",
+      "@type": "nfo:Folder",
+      "rdfs:label": "description",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks",
+      "@type": "nfo:Folder",
+      "rdfs:label": "hooks",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/index",
+      "@type": "nfo:Folder",
+      "rdfs:label": "index",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/info",
+      "@type": "nfo:Folder",
+      "rdfs:label": "info",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs",
+      "@type": "nfo:Folder",
+      "rdfs:label": "lfs",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs",
+      "@type": "nfo:Folder",
+      "rdfs:label": "logs",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects",
+      "@type": "nfo:Folder",
+      "rdfs:label": "objects",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/packed-refs",
+      "@type": "nfo:Folder",
+      "rdfs:label": "packed-refs",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs",
+      "@type": "nfo:Folder",
+      "rdfs:label": "refs",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.idea/encodings.xml",
+      "@type": "nfo:Document",
+      "rdfs:label": "encodings.xml",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.idea"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.idea/example_jsonld.iml",
+      "@type": "nfo:Document",
+      "rdfs:label": "example_jsonld.iml",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.idea"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.idea/misc.xml",
+      "@type": "nfo:Document",
+      "rdfs:label": "misc.xml",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.idea"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.idea/modules.xml",
+      "@type": "nfo:Document",
+      "rdfs:label": "modules.xml",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.idea"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.idea/vcs.xml",
+      "@type": "nfo:Document",
+      "rdfs:label": "vcs.xml",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.idea"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.idea/workspace.xml",
+      "@type": "nfo:Document",
+      "rdfs:label": "workspace.xml",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.idea"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/__init__.py",
+      "@type": "nfo:Document",
+      "rdfs:label": "__init__.py",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/__pycache__",
+      "@type": "nfo:Folder",
+      "rdfs:label": "__pycache__",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/data",
+      "@type": "nfo:Folder",
+      "rdfs:label": "data",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/data_paths.py",
+      "@type": "nfo:Document",
+      "rdfs:label": "data_paths.py",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/applypatch-msg.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "applypatch-msg.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/commit-msg.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "commit-msg.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/fsmonitor-watchman.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "fsmonitor-watchman.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/post-checkout",
+      "@type": "nfo:Folder",
+      "rdfs:label": "post-checkout",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/post-commit",
+      "@type": "nfo:Folder",
+      "rdfs:label": "post-commit",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/post-merge",
+      "@type": "nfo:Folder",
+      "rdfs:label": "post-merge",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/post-update.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "post-update.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/pre-applypatch.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "pre-applypatch.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/pre-commit.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "pre-commit.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/pre-merge-commit.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "pre-merge-commit.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/pre-push",
+      "@type": "nfo:Folder",
+      "rdfs:label": "pre-push",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/pre-push.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "pre-push.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/pre-rebase.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "pre-rebase.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/pre-receive.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "pre-receive.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/prepare-commit-msg.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "prepare-commit-msg.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/hooks/update.sample",
+      "@type": "nfo:Document",
+      "rdfs:label": "update.sample",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/hooks"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/info/exclude",
+      "@type": "nfo:Folder",
+      "rdfs:label": "exclude",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/info"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects",
+      "@type": "nfo:Folder",
+      "rdfs:label": "objects",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/tmp",
+      "@type": "nfo:Folder",
+      "rdfs:label": "tmp",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/HEAD",
+      "@type": "nfo:Folder",
+      "rdfs:label": "HEAD",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/refs",
+      "@type": "nfo:Folder",
+      "rdfs:label": "refs",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/0a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "0a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/0e",
+      "@type": "nfo:Folder",
+      "rdfs:label": "0e",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/17",
+      "@type": "nfo:Folder",
+      "rdfs:label": "17",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/1c",
+      "@type": "nfo:Folder",
+      "rdfs:label": "1c",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/1d",
+      "@type": "nfo:Folder",
+      "rdfs:label": "1d",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/2c",
+      "@type": "nfo:Folder",
+      "rdfs:label": "2c",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/2f",
+      "@type": "nfo:Folder",
+      "rdfs:label": "2f",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/30",
+      "@type": "nfo:Folder",
+      "rdfs:label": "30",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/38",
+      "@type": "nfo:Folder",
+      "rdfs:label": "38",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/3a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "3a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/4e",
+      "@type": "nfo:Folder",
+      "rdfs:label": "4e",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/53",
+      "@type": "nfo:Folder",
+      "rdfs:label": "53",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/54",
+      "@type": "nfo:Folder",
+      "rdfs:label": "54",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/64",
+      "@type": "nfo:Folder",
+      "rdfs:label": "64",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/67",
+      "@type": "nfo:Folder",
+      "rdfs:label": "67",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/7a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "7a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/86",
+      "@type": "nfo:Folder",
+      "rdfs:label": "86",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/8a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "8a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/8b",
+      "@type": "nfo:Folder",
+      "rdfs:label": "8b",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/93",
+      "@type": "nfo:Folder",
+      "rdfs:label": "93",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/97",
+      "@type": "nfo:Folder",
+      "rdfs:label": "97",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/9a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "9a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/9b",
+      "@type": "nfo:Folder",
+      "rdfs:label": "9b",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/9c",
+      "@type": "nfo:Folder",
+      "rdfs:label": "9c",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/a1",
+      "@type": "nfo:Folder",
+      "rdfs:label": "a1",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/a6",
+      "@type": "nfo:Folder",
+      "rdfs:label": "a6",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/b4",
+      "@type": "nfo:Folder",
+      "rdfs:label": "b4",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/b8",
+      "@type": "nfo:Folder",
+      "rdfs:label": "b8",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/bd",
+      "@type": "nfo:Folder",
+      "rdfs:label": "bd",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/c7",
+      "@type": "nfo:Folder",
+      "rdfs:label": "c7",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/d0",
+      "@type": "nfo:Folder",
+      "rdfs:label": "d0",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/d4",
+      "@type": "nfo:Folder",
+      "rdfs:label": "d4",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ea",
+      "@type": "nfo:Folder",
+      "rdfs:label": "ea",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/eb",
+      "@type": "nfo:Folder",
+      "rdfs:label": "eb",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ee",
+      "@type": "nfo:Folder",
+      "rdfs:label": "ee",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ef",
+      "@type": "nfo:Folder",
+      "rdfs:label": "ef",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/fa",
+      "@type": "nfo:Folder",
+      "rdfs:label": "fa",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/info",
+      "@type": "nfo:Folder",
+      "rdfs:label": "info",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/pack",
+      "@type": "nfo:Folder",
+      "rdfs:label": "pack",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/heads",
+      "@type": "nfo:Folder",
+      "rdfs:label": "heads",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/remotes",
+      "@type": "nfo:Folder",
+      "rdfs:label": "remotes",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/tags",
+      "@type": "nfo:Folder",
+      "rdfs:label": "tags",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/__pycache__/__init__.cpython-36.pyc",
+      "@type": "nfo:Document",
+      "rdfs:label": "__init__.cpython-36.pyc",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld/__pycache__"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/__pycache__/data_paths.cpython-36.pyc",
+      "@type": "nfo:Document",
+      "rdfs:label": "data_paths.cpython-36.pyc",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld/__pycache__"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/data/model.bin",
+      "@type": "nfo:Document",
+      "rdfs:label": "model.bin",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld/data"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/example_jsonld/data/model.py",
+      "@type": "nfo:Document",
+      "rdfs:label": "model.py",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/example_jsonld/data"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/3a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "3a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/78",
+      "@type": "nfo:Folder",
+      "rdfs:label": "78",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/93",
+      "@type": "nfo:Folder",
+      "rdfs:label": "93",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/98",
+      "@type": "nfo:Folder",
+      "rdfs:label": "98",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/a5",
+      "@type": "nfo:Folder",
+      "rdfs:label": "a5",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/dd",
+      "@type": "nfo:Folder",
+      "rdfs:label": "dd",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/heads",
+      "@type": "nfo:Folder",
+      "rdfs:label": "heads",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs/refs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/remotes",
+      "@type": "nfo:Folder",
+      "rdfs:label": "remotes",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs/refs"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/0a/8e811e98f636c5989d6fb44e520a9fe5e13bdb",
+      "@type": "nfo:Folder",
+      "rdfs:label": "8e811e98f636c5989d6fb44e520a9fe5e13bdb",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/0a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/0e/21126dd4ddd788dcfbe9f5e7289d719e1fdf41",
+      "@type": "nfo:Folder",
+      "rdfs:label": "21126dd4ddd788dcfbe9f5e7289d719e1fdf41",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/0e"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/17/af1ec5f29dbeb52ba88b2d03e136861f6b2b7d",
+      "@type": "nfo:Folder",
+      "rdfs:label": "af1ec5f29dbeb52ba88b2d03e136861f6b2b7d",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/17"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/17/bfc5faa62a5dd1a42aef9367e27248cd9b8881",
+      "@type": "nfo:Folder",
+      "rdfs:label": "bfc5faa62a5dd1a42aef9367e27248cd9b8881",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/17"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/1c/114acb632febb6eafe1b1e1fd67503ebc62d5a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "114acb632febb6eafe1b1e1fd67503ebc62d5a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/1c"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/1d/4fa4e589e38dc06eec003c336fd7cd40e66520",
+      "@type": "nfo:Folder",
+      "rdfs:label": "4fa4e589e38dc06eec003c336fd7cd40e66520",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/1d"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/2c/63d45f76e9c7d27c8643fc7bf509324c6be0a1",
+      "@type": "nfo:Folder",
+      "rdfs:label": "63d45f76e9c7d27c8643fc7bf509324c6be0a1",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/2c"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/2f/553210b310da1dfb221f8607e5c9a4bb9ba14d",
+      "@type": "nfo:Folder",
+      "rdfs:label": "553210b310da1dfb221f8607e5c9a4bb9ba14d",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/2f"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/30/7541876fe1184d38262bfb3fb2f07e27a685d0",
+      "@type": "nfo:Folder",
+      "rdfs:label": "7541876fe1184d38262bfb3fb2f07e27a685d0",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/30"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/38/8e6e54657a01a2a6acc8646131c298064e4825",
+      "@type": "nfo:Folder",
+      "rdfs:label": "8e6e54657a01a2a6acc8646131c298064e4825",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/38"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/3a/40fe54b47f379f57cd6eb75f723d45b43a2d99",
+      "@type": "nfo:Folder",
+      "rdfs:label": "40fe54b47f379f57cd6eb75f723d45b43a2d99",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/3a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/3a/cce57739bb7ffaa0705d856ea13c46cac1a9e3",
+      "@type": "nfo:Folder",
+      "rdfs:label": "cce57739bb7ffaa0705d856ea13c46cac1a9e3",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/3a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/4e/dd5acb13dba6a9f44a206fa1b6a1789fbcc50a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "dd5acb13dba6a9f44a206fa1b6a1789fbcc50a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/4e"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/53/3fd2dbbd45f3ebc2fd7c159419d58009f99a16",
+      "@type": "nfo:Folder",
+      "rdfs:label": "3fd2dbbd45f3ebc2fd7c159419d58009f99a16",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/53"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/54/3e0d70f1c8f2cf5248be2bc13bfd86f253fe01",
+      "@type": "nfo:Folder",
+      "rdfs:label": "3e0d70f1c8f2cf5248be2bc13bfd86f253fe01",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/54"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/64/6fa2d9178ede7ff417c7a9d376b7973877160b",
+      "@type": "nfo:Folder",
+      "rdfs:label": "6fa2d9178ede7ff417c7a9d376b7973877160b",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/64"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/67/71cef8eca7ce8bd3a7694375eedf63ba8d3f49",
+      "@type": "nfo:Folder",
+      "rdfs:label": "71cef8eca7ce8bd3a7694375eedf63ba8d3f49",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/67"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/7a/44daabc639eb877ff662e2be3442c1e3972889",
+      "@type": "nfo:Folder",
+      "rdfs:label": "44daabc639eb877ff662e2be3442c1e3972889",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/7a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/86/76b60fe7445b916952b4ab31683b516e3dad98",
+      "@type": "nfo:Folder",
+      "rdfs:label": "76b60fe7445b916952b4ab31683b516e3dad98",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/86"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/8a/90d3278ed879a358a5347a189b295452bddd8b",
+      "@type": "nfo:Folder",
+      "rdfs:label": "90d3278ed879a358a5347a189b295452bddd8b",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/8a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/8a/c6d4a02e88f7e944017275c6766302f03090c0",
+      "@type": "nfo:Folder",
+      "rdfs:label": "c6d4a02e88f7e944017275c6766302f03090c0",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/8a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/8b/0f970ecabfb652d6918d57fb6be806a13a95ce",
+      "@type": "nfo:Folder",
+      "rdfs:label": "0f970ecabfb652d6918d57fb6be806a13a95ce",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/8b"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/93/18a190f350b23ab0738a82812f9ee898472426",
+      "@type": "nfo:Folder",
+      "rdfs:label": "18a190f350b23ab0738a82812f9ee898472426",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/93"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/97/552e7f0eb79bb62474e87399ee8ecc280399de",
+      "@type": "nfo:Folder",
+      "rdfs:label": "552e7f0eb79bb62474e87399ee8ecc280399de",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/97"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/9a/0edb08a985daba3a88efbb88d639802875dbe5",
+      "@type": "nfo:Folder",
+      "rdfs:label": "0edb08a985daba3a88efbb88d639802875dbe5",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/9a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/9a/3f3e7af67a3c9dc2a2430d8231ef020c8ac239",
+      "@type": "nfo:Folder",
+      "rdfs:label": "3f3e7af67a3c9dc2a2430d8231ef020c8ac239",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/9a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/9b/ed3908cf4c8d1e83018e6a5b035632973f5a45",
+      "@type": "nfo:Folder",
+      "rdfs:label": "ed3908cf4c8d1e83018e6a5b035632973f5a45",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/9b"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/9c/38581ec89076b25d4adc94c1cbab5f8f9e998d",
+      "@type": "nfo:Folder",
+      "rdfs:label": "38581ec89076b25d4adc94c1cbab5f8f9e998d",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/9c"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/a1/98c782d8a185cf8110545460795e008e3b3e9b",
+      "@type": "nfo:Folder",
+      "rdfs:label": "98c782d8a185cf8110545460795e008e3b3e9b",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/a1"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/a6/114720c5167be7833c767ce5f4b2e4feeea86b",
+      "@type": "nfo:Folder",
+      "rdfs:label": "114720c5167be7833c767ce5f4b2e4feeea86b",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/a6"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/b4/1dfa38dbffb0a8841db8c13b1d18affa561462",
+      "@type": "nfo:Folder",
+      "rdfs:label": "1dfa38dbffb0a8841db8c13b1d18affa561462",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/b4"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/b8/05277c712e8972b2524d3adf2d080c565d40b5",
+      "@type": "nfo:Folder",
+      "rdfs:label": "05277c712e8972b2524d3adf2d080c565d40b5",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/b8"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/bd/f6eaf1a9efb788af0400873971825d1c7d8df1",
+      "@type": "nfo:Folder",
+      "rdfs:label": "f6eaf1a9efb788af0400873971825d1c7d8df1",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/bd"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/c7/25fe0f1289d5db9381cfb929efe9b18ea9f34c",
+      "@type": "nfo:Folder",
+      "rdfs:label": "25fe0f1289d5db9381cfb929efe9b18ea9f34c",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/c7"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/d0/55e644bd3a10e18dc87d64b4718f34deb9c77a",
+      "@type": "nfo:Folder",
+      "rdfs:label": "55e644bd3a10e18dc87d64b4718f34deb9c77a",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/d0"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/d4/b3b1b31330fedbca3e62e5ea2cf87a7c34efdb",
+      "@type": "nfo:Folder",
+      "rdfs:label": "b3b1b31330fedbca3e62e5ea2cf87a7c34efdb",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/d4"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ea/fd19815f0daf5a92cae791e8b4f35401740f48",
+      "@type": "nfo:Folder",
+      "rdfs:label": "fd19815f0daf5a92cae791e8b4f35401740f48",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/ea"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/eb/80eda077b107d535689ebcad5740b243ff4098",
+      "@type": "nfo:Folder",
+      "rdfs:label": "80eda077b107d535689ebcad5740b243ff4098",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/eb"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ee/948538fd4f821f69fb8f2eef22982c014c2280",
+      "@type": "nfo:Folder",
+      "rdfs:label": "948538fd4f821f69fb8f2eef22982c014c2280",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/ee"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ef/1b4cff6a2519bd4f6cff8dd6e74558709a1960",
+      "@type": "nfo:Folder",
+      "rdfs:label": "1b4cff6a2519bd4f6cff8dd6e74558709a1960",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/ef"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ef/ac500947a4b4e21df23e8fc13f5497101372cd",
+      "@type": "nfo:Folder",
+      "rdfs:label": "ac500947a4b4e21df23e8fc13f5497101372cd",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/ef"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/ef/f563f363bc82161a12b61f631f08296eb59138",
+      "@type": "nfo:Folder",
+      "rdfs:label": "f563f363bc82161a12b61f631f08296eb59138",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/ef"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/fa/a18be5bbf7d6e25d05b85f3c2126e1c0d0bd32",
+      "@type": "nfo:Folder",
+      "rdfs:label": "a18be5bbf7d6e25d05b85f3c2126e1c0d0bd32",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/fa"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/pack/pack-09d1920c29b42198ea064969a538bab755bf5c3c.idx",
+      "@type": "nfo:Document",
+      "rdfs:label": "pack-09d1920c29b42198ea064969a538bab755bf5c3c.idx",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/pack"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/objects/pack/pack-09d1920c29b42198ea064969a538bab755bf5c3c.pack",
+      "@type": "nfo:Document",
+      "rdfs:label": "pack-09d1920c29b42198ea064969a538bab755bf5c3c.pack",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/objects/pack"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/heads/master",
+      "@type": "nfo:Folder",
+      "rdfs:label": "master",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/heads"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/remotes/origin",
+      "@type": "nfo:Folder",
+      "rdfs:label": "origin",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/remotes"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/tags/v0.0.1",
+      "@type": "nfo:Document",
+      "rdfs:label": "v0.0.1",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/tags"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/tags/v0.0.2",
+      "@type": "nfo:Document",
+      "rdfs:label": "v0.0.2",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/tags"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/tags/v0.0.3",
+      "@type": "nfo:Document",
+      "rdfs:label": "v0.0.3",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/tags"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/tags/v0.0.4",
+      "@type": "nfo:Document",
+      "rdfs:label": "v0.0.4",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/tags"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/tags/v0.0.5",
+      "@type": "nfo:Document",
+      "rdfs:label": "v0.0.5",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/tags"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/tags/v0.0.6",
+      "@type": "nfo:Document",
+      "rdfs:label": "v0.0.6",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/tags"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/3a/97",
+      "@type": "nfo:Folder",
+      "rdfs:label": "97",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/3a"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/78/a2",
+      "@type": "nfo:Folder",
+      "rdfs:label": "a2",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/78"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/93/18",
+      "@type": "nfo:Folder",
+      "rdfs:label": "18",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/93"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/98/d5",
+      "@type": "nfo:Folder",
+      "rdfs:label": "d5",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/98"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/a5/e0",
+      "@type": "nfo:Folder",
+      "rdfs:label": "e0",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/a5"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/dd/16",
+      "@type": "nfo:Folder",
+      "rdfs:label": "16",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/dd"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/heads/master",
+      "@type": "nfo:Folder",
+      "rdfs:label": "master",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/heads"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/remotes/origin",
+      "@type": "nfo:Folder",
+      "rdfs:label": "origin",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/remotes"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/remotes/origin/HEAD",
+      "@type": "nfo:Folder",
+      "rdfs:label": "HEAD",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/remotes/origin"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/refs/remotes/origin/master",
+      "@type": "nfo:Folder",
+      "rdfs:label": "master",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/refs/remotes/origin"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/3a/97/3a97c19fabc85d35242dcc26a6add8ace95cd5d72bdd12bbb7d47c9597162cca",
+      "@type": "nfo:Folder",
+      "rdfs:label": "3a97c19fabc85d35242dcc26a6add8ace95cd5d72bdd12bbb7d47c9597162cca",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/3a/97"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/78/a2/78a2a3e3529d3e1eda30cf084af187b7c66c409c28591d9eb123cc41d61eb607",
+      "@type": "nfo:Folder",
+      "rdfs:label": "78a2a3e3529d3e1eda30cf084af187b7c66c409c28591d9eb123cc41d61eb607",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/78/a2"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/93/18/9318fd5285e695c3a4506d2d6123b53192f7b362efcaaac36d3381918e520703",
+      "@type": "nfo:Folder",
+      "rdfs:label": "9318fd5285e695c3a4506d2d6123b53192f7b362efcaaac36d3381918e520703",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/93/18"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/98/d5/98d5e8146cf1a9ab7991ea349d10311c95557907d4a16aafa1ab9ac5a767b293",
+      "@type": "nfo:Folder",
+      "rdfs:label": "98d5e8146cf1a9ab7991ea349d10311c95557907d4a16aafa1ab9ac5a767b293",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/98/d5"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/a5/e0/a5e0a2c888a21129a936f84be9c8529438f7f92e651e6c3e84e8f5372cb8fa01",
+      "@type": "nfo:Folder",
+      "rdfs:label": "a5e0a2c888a21129a936f84be9c8529438f7f92e651e6c3e84e8f5372cb8fa01",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/a5/e0"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/dd/16/dd163ac559d9a95825cb6d4eee85479b1a657dcb8d8634d93f8ca27d5959661f",
+      "@type": "nfo:Folder",
+      "rdfs:label": "dd163ac559d9a95825cb6d4eee85479b1a657dcb8d8634d93f8ca27d5959661f",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/lfs/objects/dd/16"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/remotes/origin/HEAD",
+      "@type": "nfo:Folder",
+      "rdfs:label": "HEAD",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/remotes/origin"
+      }
+    },
+    {
+      "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/remotes/origin/master",
+      "@type": "nfo:Folder",
+      "rdfs:label": "master",
+      "nfo:belongsToContainer": {
+        "@id": "/home/mike/mm/example_jsonld/.git/logs/refs/remotes/origin"
+      }
+    }
+  ]
+}
