@@ -38,7 +38,7 @@ deps = [
 
 setup(
     name=pkg_name,
-    version="v0.0.5",
+    version="v0.0.6",
     script_name='setup.py',
     zip_safe=False,
     package_data={"example_jsonld": data_files},
