@@ -1,1 +1,1 @@
-some metadata
+{"key": "some metadata", "foo": "bar"}
