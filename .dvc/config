@@ -2,3 +2,5 @@
 url = /tmp/dvc-storage
 [core]
 remote = myremote
+['remote "foodvc"']
+url = ../../foodvc
