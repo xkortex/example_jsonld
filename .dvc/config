@@ -4,3 +4,5 @@ url = /tmp/dvc-storage
 remote = myremote
 ['remote "foodvc"']
 url = ../../foodvc
+['remote "bardvc"']
+url = ../$DVC_HOME
